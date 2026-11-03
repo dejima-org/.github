@@ -11,7 +11,7 @@ A coding agent with its permission prompts off can be turned by a prompt injecti
 
 | Project | Runs on | What it does |
 | --- | --- | --- |
-| **[dejima](https://github.com/dejima-org/dejima)** | your devbox | Runs the agent in a firewalled container: deny-by-default egress, credentials that stay on the host, per-project approval. **Start here.** |
+| **[dejima](https://github.com/dejima-org/dejima)** | your laptop, or a devbox | Runs the agent in a firewalled container: deny-by-default egress, credentials that stay on the host, per-project approval. **Start here.** |
 | **[dejima-devbox-hardener](https://github.com/dejima-org/dejima-devbox-hardener)** | the same devbox | Cuts the VM's reach into your network to what is declared, enforced from outside the guest. |
 | **[dejima-guard](https://github.com/dejima-org/dejima-guard)** | a different machine | Notices when the devbox changes and alerts you. Detection, not enforcement. |
 | **[dejima-ci-hardener](https://github.com/dejima-org/dejima-ci-hardener)** | your CI runner | Runs agent-authored pull requests without that being access to your network. |
