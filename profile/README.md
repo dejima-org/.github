@@ -17,6 +17,10 @@ A coding agent with its permission prompts off can be turned by a prompt injecti
 | **[dejima-ci-hardener](https://github.com/dejima-org/dejima-ci-hardener)** | your CI runner | Runs agent-authored pull requests without that being access to your network. |
 | **[dejima-badge](https://github.com/dejima-org/dejima-badge)** | your README | A "Developed in dejima" badge. |
 
+**[darner](https://github.com/dejima-org/darner)** is the other direction: it hands dejima work from outside rather than bounding a layer beneath it. Post a task from a browser or a Matrix room and it runs as one isolated session on your dejima host, answers what it needs while it works, and brings back a summary and a zip of what it made. It releases with dejima.
+
+**[Try darner with no model behind it](https://darner-demo.dejima.page)**, or **[take the stack apart as a diagram](https://xray.dejima.page)**: what runs where, which layer bounds it, and where a request stops as you change a setting.
+
 Only dejima is required. [The threat model](https://github.com/dejima-org/dejima/blob/main/docs/threat-model.md#the-stack-and-what-each-piece-buys) says what each of the others buys and what goes wrong without it. To get started, see [dejima's setup](https://github.com/dejima-org/dejima#setup).
 
 **Early development, one maintainer.** None of this has been through outside review or an audit, and nothing about it is supported. Do not put it anywhere being wrong about it would matter. Report vulnerabilities as [SECURITY.md](https://github.com/dejima-org/dejima/blob/main/SECURITY.md) describes, not in public.
